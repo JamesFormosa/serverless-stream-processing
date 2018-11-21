@@ -8,5 +8,5 @@ Step 1: Deploy the IoT Simulator
 
   https://github.com/awslabs/iot-device-simulator
   
-  
+  <img width="920" alt="iot-device-simulator-architecture" src="https://user-images.githubusercontent.com/37228603/48860846-a5a19c80-ed87-11e8-9bae-f2a19f0c7fc1.png">
   
