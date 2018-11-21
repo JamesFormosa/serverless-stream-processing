@@ -5,3 +5,8 @@ Step 1: Deploy the IoT Simulator
 
   https://aws.amazon.com/answers/iot/iot-device-simulator/
   
+
+  https://github.com/awslabs/iot-device-simulator
+  
+  
+  
