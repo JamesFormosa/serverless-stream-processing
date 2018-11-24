@@ -38,5 +38,10 @@
     1. Navigate to DynamoDB and click on the Items tab for your parient-register table to confirm data have been uploaded.
  
  5. Create S3 buckets.
+    1. Create an S3 bucket called *yourlastname*-surgeon-contact.
+    1. Upload the surgeon-contact-info.csv file to this bucket.
+    1. Create an S3 bucket called *yourlastname*-patient-data.
+    
+ 6. Login to the IoT Device Simulator.
  
  
