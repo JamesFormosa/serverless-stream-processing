@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d08a31-4600-4c28-91f7-52caf63b86db" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-prerequisites/code/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-prerequisites/iam/patient-register-policy.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-prerequisites/code/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="990">
               <caret line="66" column="2" lean-forward="false" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="patient-register-policy.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1-prerequisites/iam/patient-register-policy.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -53,6 +64,7 @@
       <list>
         <option value="$PROJECT_DIR$/1-prerequisites/patient-register.txt" />
         <option value="$PROJECT_DIR$/1-prerequisites/code/index.js" />
+        <option value="$PROJECT_DIR$/1-prerequisites/iam/patient-register-policy.json" />
       </list>
     </option>
   </component>
@@ -70,8 +82,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="205" />
-    <option name="y" value="102" />
+    <option name="x" value="294" />
+    <option name="y" value="79" />
     <option name="width" value="1280" />
     <option name="height" value="735" />
   </component>
@@ -102,6 +114,18 @@
               <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
               <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
               <item name="1-prerequisites" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
+              <item name="1-prerequisites" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
+              <item name="1-prerequisites" type="462c0819:PsiDirectoryNode" />
+              <item name="iam" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,18 +163,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543085991929</updated>
-      <workItem from="1543085996220" duration="711000" />
+      <workItem from="1543085996220" duration="1376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="711000" />
+    <option name="totallyTimeSpent" value="1376000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="205" y="102" width="1280" height="735" extended-state="0" />
-    <editor active="true" />
+    <frame x="294" y="79" width="1280" height="735" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -191,6 +214,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="66" column="2" lean-forward="false" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-prerequisites/iam/patient-register-policy.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="1" />
           <folding />
         </state>
       </provider>
