@@ -12,11 +12,17 @@
 2. Create and Populate DynamoDB Table
    1. Navigate to the DynamoDB section of the AWS console and click * Create Table*.
    1. Give the table a unique name for the stack (e.g.: *yourlastname*-patient-register), and enter *patient-id* for the Partition Key. Click *Create*.
+   1. Make note of the ARN.
    
    
- 3. Create a Lambda function to populate the patient register DynamoDB table.
+ 3. Create an IAM Policy and Role to provide access to the patient register Dynamo DB table.
+    1. create the patient-register policy to grant access to the DynamoDB table contauininig patientb recoprds
+    1. copy the json from the patient-register-policy json document
+    1. save as *yourlastname*-patient-register-policy
+ 
+ 4. Create a Lambda function to populate the patient register DynamoDB table.
  
  
- 4. Create S3 buckets.
+ 5. Create S3 buckets.
  
  
