@@ -71,3 +71,12 @@
        
        1. Click on Save to Save the device type.
        
+  7. Test the Device Simukator
+     1. In the Device Simulator console, click on Widgets and the clik Add Widhet
+     1. Make sure ICU Montor is selected for the device Type and Enter 3 for the nuimber of Widgets. Scloic on Submit.
+     1. Login to the AWS console, if neccesary and navigate to IoT Core.
+     1. Click on Test in the AWS IoT menu on the left-hand side of the pasge
+     1. Enter /patient/data for the Subscriuption topic and click Subscribe to topic.
+     1. Veridy thayt messages are streamiong in from your devices.
+     
+     
