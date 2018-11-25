@@ -1,0 +1,8 @@
+{
+  "Version": "2012-10-17",
+  "Statement": {
+    "Effect": "Allow",
+    "Action": "kinesis:PutRecord",
+    "Resource": "arn:aws:kinesis:us-east-1:744508610674:stream/formosa-kinesis-iot-stream"
+  }
+}
