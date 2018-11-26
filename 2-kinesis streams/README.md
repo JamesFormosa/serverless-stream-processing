@@ -30,4 +30,5 @@
    1.Click Configure action.
    1. Select the IoT kinesis stream created above, Enter patinet-data for the partitio0ley and choose the iot-stream role cretaed above.
    1. CLick Add action.
-   
+1. Create IAM P;lolicy and Role to grant CloudWatch and Kinesis access to the IoT stream processing function.
+1. Create the Lambda function to process the IoT stream function, enrticking the data by pulling in more information regaridng the patients whose moniotoring data is coming in.
