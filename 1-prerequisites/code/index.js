@@ -46,7 +46,7 @@ exports.handler = (event, context, callback) => {
         var params = {
             TableName:table,
             Item:{
-                'PatientId': {S: patient.Patientd},
+                'PatientId': {S: patient.PatientId},
                 'LastName': {S: patient.LastName},
                 'FirstName': {S: patient.FirstName},
                 'DateOfBirth': {N: patient.DateOfBirth},
