@@ -3,7 +3,10 @@
   "Statement": [
     {
       "Effect": "Allow",
-      "Action": "dynamodb:PutItem",
+      "Action": [
+        "dynamodb:PutItem",
+        "dynamodb:GetItem"
+      ],
       "Resource": "<arn of your DyanmoDB patient register table here>"
     }
   ]
