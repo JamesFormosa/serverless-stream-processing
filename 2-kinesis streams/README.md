@@ -15,3 +15,5 @@
    *Three environment variables.*
 
 1. Add and configure the Lambda function with a Kinesis trigger.
+
+1. Run the IoT device simulator and check the CloudWatch logs for the Lambda function.
