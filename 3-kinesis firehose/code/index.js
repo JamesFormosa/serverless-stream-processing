@@ -6,9 +6,7 @@ var convert = (patient) => {
     let obj = JSON.parse(buff.toString('utf8'));
     obj.LastName = 'Doe';
     obj.FirstName = 'John';
-    obj.DateOfBirth = 17760704;
-    //console.log(obj.PatientInfo.replace(";",","));
-    //console.log(JSON.stringify(obj));
+    console.log(JSON.stringify(obj));
     let retBuff = new Buffer(JSON.stringify(obj));
     return retBuff.toString('base64');
 };

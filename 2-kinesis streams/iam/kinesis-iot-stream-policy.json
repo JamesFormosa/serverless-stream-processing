@@ -3,6 +3,6 @@
   "Statement": {
     "Effect": "Allow",
     "Action": "kinesis:PutRecord",
-    "Resource": "<your arn here>"
+    "Resource": ["<your arn here>, <your arn here>"]
   }
 }
