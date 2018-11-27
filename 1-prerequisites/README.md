@@ -1,4 +1,4 @@
-# prerequisites
+# Prerequisites
 
 1. Launch the [IoT Device Simulator](https://docs.aws.amazon.com/solutions/latest/iot-device-simulator/deployment.html#step1) through AWS CloudFormation.
    
