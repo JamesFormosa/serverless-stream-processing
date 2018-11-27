@@ -12,12 +12,14 @@
 
 1. Create a Lambda function to populate the patient register DynamoDB table.
 
- 5. Create S3 buckets.
-    1. Create an S3 bucket called *yourlastname*-surgeon-contact.
-    1. Upload the surgeon-contact-info.csv file to this bucket.
-    1. Create an S3 bucket called *yourlastname*-patient-data.
+   *Include two environemnt variables.*
+
+ 1. Create an S3 bucket for Firehose target.
     
- 6. Login to the IoT Device Simulator.
+ 1. Login to the IoT Device Simulator and change password.
+ 
+ 1. Create Device Type
+ 
     1. Locate the email containing the login details for the IoT DEvice Similator and login.
     1. Follow the instructions to change your password.
     1. Click on *Create a Device Type*
