@@ -10,4 +10,8 @@
 
 1. Update the IAM role to include AWSLambdaBasicExecution and AWSLambdaKinesisExecution.
 
+1. Implement a Lambda function to process records from the IoT KInesis stream into the Patient Kinesis stream.
+
+   *Three environment variables.*
+
 1. Add and configure the Lambda function with a Kinesis trigger.
