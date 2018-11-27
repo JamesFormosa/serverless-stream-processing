@@ -11,6 +11,8 @@
 1. Create an IAM Policy to Grant PutItem and GetItem on the DynamoDB table to AWS Lambda functions.
  
 1. Create an IAM Role to manage access for AWS Lambda functions.
+ 
+   *Add the AWSLambdaBasicExecution and AWSLambdaKInesisExecution policies*
 
 1. Create a Lambda function to populate the patient register DynamoDB table.
 
