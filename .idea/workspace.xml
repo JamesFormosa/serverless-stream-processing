@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d08a31-4600-4c28-91f7-52caf63b86db" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-prerequisites/code/index.js" afterPath="$PROJECT_DIR$/1-prerequisites/code/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-kinesis streams/code/index.js" afterPath="$PROJECT_DIR$/2-kinesis streams/code/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-prerequisites/code/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="474">
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2-kinesis streams/code/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="551">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -49,8 +49,8 @@
       <file leaf-file-name="message-payload.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-prerequisites/data/message-payload.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -116,9 +116,9 @@
         <option value="$PROJECT_DIR$/3-kinesis firehose/code/index.js" />
         <option value="$PROJECT_DIR$/4-kinesis analytics/code/index.js" />
         <option value="$PROJECT_DIR$/2-kinesis streams/iam/kinesis-iot-stream-policy.json" />
-        <option value="$PROJECT_DIR$/2-kinesis streams/code/index.js" />
         <option value="$PROJECT_DIR$/1-prerequisites/data/message-payload.txt" />
         <option value="$PROJECT_DIR$/1-prerequisites/code/index.js" />
+        <option value="$PROJECT_DIR$/2-kinesis streams/code/index.js" />
       </list>
     </option>
   </component>
@@ -248,12 +248,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543085991929</updated>
-      <workItem from="1543085996220" duration="5828000" />
+      <workItem from="1543085996220" duration="6096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5828000" />
+    <option name="totallyTimeSpent" value="6096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="730" extended-state="0" />
@@ -328,26 +328,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2-kinesis streams/code/index.js">
+    <entry file="file://$PROJECT_DIR$/1-prerequisites/code/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
+        <state relative-caret-position="474">
+          <caret line="54" column="64" lean-forward="false" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1-prerequisites/data/message-payload.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-prerequisites/code/index.js">
+    <entry file="file://$PROJECT_DIR$/2-kinesis streams/code/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="54" column="64" lean-forward="false" selection-start-line="54" selection-start-column="64" selection-end-line="54" selection-end-column="64" />
+        <state relative-caret-position="551">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
           <folding />
         </state>
       </provider>
