@@ -6,7 +6,8 @@
 
 1. Create an IAM Role to apply to the IoT rule that will push records from IoT to the Kinesis stream.
 
-1. Create an IoT rule to stream data into the IoT Stream created in step 1.
+1. Create an IoT rule to stream data into the Kinesis stream.
 
-1. Create IAM P;lolicy and Role to grant CloudWatch and Kinesis access to the IoT stream processing function.
-1. Create the Lambda function to process the IoT stream function, enrticking the data by pulling in more information regaridng the patients whose moniotoring data is coming in.
+1. Update the IAM role to include AWSLambdaBasicExecution and AWSLambdaKiNesisExecution.
+
+1. 
