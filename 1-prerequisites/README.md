@@ -6,6 +6,8 @@
    
 1. Create a DynamoDB table to store the patient register.
    
+   *Primary Key = PatientId*
+   
 1. Create an IAM Policy to Grant PutItem and GetItem on the DynamoDB table to AWS Lambda functions.
  
 1. Create an IAM Role to manage access for AWS Lambda functions.
