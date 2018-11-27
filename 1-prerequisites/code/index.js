@@ -1,7 +1,7 @@
 var AWS = require("aws-sdk");
 
 AWS.config.update({
-    region: region: process.env.REGION
+    region: process.env.REGION
 });
 
 var patientRegister = [
