@@ -8,6 +8,6 @@
 
 1. Create an IoT rule to stream data into the Kinesis stream.
 
-1. Update the IAM role to include AWSLambdaBasicExecution and AWSLambdaKiNesisExecution.
+1. Update the IAM role to include AWSLambdaBasicExecution and AWSLambdaKinesisExecution.
 
-1. 
+1. Add and configure the Lambda function with a Kinesis trigger.
