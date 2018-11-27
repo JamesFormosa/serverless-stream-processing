@@ -12,7 +12,7 @@ function putToStream(record){
     var params = {
         Data: record,
         PartitionKey: 'patient-data',
-        StreamName: 'formosa-patient-iot-stream'
+        StreamName: process.env.OUTGOING_STREAM
     };
     kinesis.putRecord(params, function(err, data) {
         if (err) console.log(err, err.stack); // an error occurred
