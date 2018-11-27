@@ -46,13 +46,13 @@ exports.handler = (event, context, callback) => {
         var params = {
             TableName:table,
             Item:{
-                'patient-id': {S: patient.Patientd},
-                'last-name': {S: patient.LastName},
-                'first-name': {S: patient.FirstName},
-                'date-of-birth': {N: patient.DateOfBirth},
-                'procedure': {S: patient.Procedure},
-                'surgeon-id': {S: patient.SurgeonId},
-                'surgeon-last-name': {S: patient.SurgeonLastName},
+                'PatientId': {S: patient.Patientd},
+                'LastName': {S: patient.LastName},
+                'FirstName': {S: patient.FirstName},
+                'DateOfBirth': {N: patient.DateOfBirth},
+                'Procedure': {S: patient.Procedure},
+                'SurgeonId': {S: patient.SurgeonId},
+                'SurgeonLastName': {S: patient.SurgeonLastName},
             }
         };
         console.log(params);
