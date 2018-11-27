@@ -4,31 +4,14 @@
    
    The stack will take approximately 10 minutes to create. Continue with other prerequisites.
    
-2. Create and Populate DynamoDB Table
+1. Create a DynamoDB table to store the patient register.
    
-   
- 3. Create an IAM Policy and Role to provide access to the patient register Dynamo DB table.
-    1. create the patient-register policy to grant access to the DynamoDB table contauininig patientb recoprds
-    1. copy the json from the patient-register-policy json document
-    1. save as *yourlastname*-patient-register-policy
-    1. create a new role 
-       1. select Lambda as the service and click Next:Permissions
-       1. filter policies by patient and select the patient-register-policy just created
-       1. click Next: Tags
-       1. click Next: Review
-       1. name it *yourlastname*-patient-register-role and click Create role
+1. Create an IAM Policy to Grant PutItem and GetItem on the DynamoDB table to AWS Lambda functions.
  
- 4. Create a Lambda function to populate the patient register DynamoDB table.
-    1. create a lambda function called *your-last-name*-patient-register-upload
-    1. for code entry type select upload a .zip file
-    1. add an environment variable called TABLE_NAME and give it a value equal to the name of your DynamoDB patient register table
-    1. add an environment variable for Region and set the vaue to the appropriate AWS region.
-    1. change tuimeout to 5 desc and cick Save
-    1. in the select a test event dropdown, select Configure test events
-    1. In the Configure Test event dialog, enter TestPatientUplaod and click Save.
-    1. Click Test
-    1. Navigate to DynamoDB and click on the Items tab for your parient-register table to confirm data have been uploaded.
- 
+1. Create an IAM Role to manage access for AWS Lambda functions.
+
+1. Create a Lambda function to populate the patient register DynamoDB table.
+
  5. Create S3 buckets.
     1. Create an S3 bucket called *yourlastname*-surgeon-contact.
     1. Upload the surgeon-contact-info.csv file to this bucket.
