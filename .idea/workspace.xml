@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d08a31-4600-4c28-91f7-52caf63b86db" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2-kinesis streams/iam/kinesis-iot-stream-policy.json" afterPath="$PROJECT_DIR$/2-kinesis streams/iam/kinesis-iot-stream-policy.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/5-additional resources/quick-start.template" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,21 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="patient-register.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-prerequisites/data/patient-register.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="2" lean-forward="false" selection-start-line="31" selection-start-column="2" selection-end-line="31" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-prerequisites/code/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
-              <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+              <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -40,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/2-kinesis streams/code/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
-              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="30" />
+              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -90,13 +81,13 @@
         <entry file="file://$PROJECT_DIR$/4-kinesis analytics/code/application.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kinesis-iot-stream-policy.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kinesis-iot-stream-policy.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2-kinesis streams/iam/kinesis-iot-stream-policy.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -106,11 +97,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="quick-start.template" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5-additional resources/quick-start.template">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2040">
+              <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="patient-register-policy.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-prerequisites/iam/patient-register-policy.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -141,6 +142,7 @@
         <option value="$PROJECT_DIR$/1-prerequisites/iam/patient-register-policy.json" />
         <option value="$PROJECT_DIR$/1-prerequisites/code/index.js" />
         <option value="$PROJECT_DIR$/2-kinesis streams/iam/kinesis-iot-stream-policy.json" />
+        <option value="$PROJECT_DIR$/5-additional resources/quick-start.template" />
       </list>
     </option>
   </component>
@@ -189,64 +191,7 @@
             <path>
               <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
               <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="1-prerequisites" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="1-prerequisites" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="1-prerequisites" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="1-prerequisites" type="462c0819:PsiDirectoryNode" />
-              <item name="iam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="2-kinesis streams" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="2-kinesis streams" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="2-kinesis streams" type="462c0819:PsiDirectoryNode" />
-              <item name="iam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="3-kinesis firehose" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="3-kinesis firehose" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="4-kinesis analytics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="serverless-stream-processing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="serverless-stream-processing" type="462c0819:PsiDirectoryNode" />
-              <item name="4-kinesis analytics" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="5-additional resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -289,12 +234,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1543085991929</updated>
-      <workItem from="1543085996220" duration="10152000" />
+      <workItem from="1543085996220" duration="10527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10152000" />
+    <option name="totallyTimeSpent" value="10527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="156" y="23" width="1027" height="682" extended-state="0" />
@@ -348,7 +293,7 @@
     <entry file="file://$PROJECT_DIR$/4-kinesis analytics/code/application.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -356,7 +301,7 @@
     <entry file="file://$PROJECT_DIR$/2-kinesis streams/code/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="30" />
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -388,7 +333,7 @@
     <entry file="file://$PROJECT_DIR$/1-prerequisites/iam/patient-register-policy.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -396,7 +341,7 @@
     <entry file="file://$PROJECT_DIR$/1-prerequisites/code/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
-          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+          <caret line="43" column="39" lean-forward="false" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
           <folding />
         </state>
       </provider>
@@ -405,6 +350,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="37" lean-forward="false" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5-additional resources/quick-start.template">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="136" column="0" lean-forward="true" selection-start-line="136" selection-start-column="0" selection-end-line="136" selection-end-column="0" />
           <folding />
         </state>
       </provider>

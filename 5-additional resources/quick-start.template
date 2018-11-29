@@ -1,0 +1,136 @@
+{
+    "AWSTemplateFormatVersion" : "2010-09-09",
+
+  	"Description" : "Sets up the IAM policies and roles for the serverless stream processing lab.",
+
+   "Parameters" : {
+   		"BucketName" : {
+    		"Type" : "String",
+    		"Description" : "The S3 bucket that will serve as the destination for the Kinesis Firehose Delivery Stream"
+  		}
+   },
+
+   	"Resources" : {
+   		"destinationBucket":{
+   			"Type":"AWS::S3::Bucket",
+   			"Properties":{
+   				"BucketName": { "Ref": "BucketName" }
+   			}
+   		},
+   	    "lambdaRole":{
+   	        "Type":"AWS::IAM::Role",
+   	        "Properties":{
+   	            "AssumeRolePolicyDocument": {
+                    "Version" : "2012-10-17",
+                    "Statement": [ {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": [ "lambda.amazonaws.com" ]
+                        },
+                        "Action": [ "sts:AssumeRole" ]
+                    } ]
+                },
+                "ManagedPolicyArns": [
+          			"arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole",
+          			"arn:aws:iam::aws:policy/service-role/AWSLambdaKinesisExecutionRole"
+        		],
+                "RoleName":"acme-lambda-role"
+   	        }
+   	    },
+   	    "iotRole":{
+   	    	"Type":"AWS::IAM::Role",
+   	        "Properties":{
+   	            "AssumeRolePolicyDocument": {
+                    "Version" : "2012-10-17",
+                    "Statement": [ {
+                        "Effect": "Allow",
+                        "Principal": {
+                            "Service": [ "iot.amazonaws.com" ]
+                        },
+                        "Action": [ "sts:AssumeRole" ]
+                    } ]
+                },
+                "ManagedPolicyArns": [
+          			"arn:aws:iam::aws:policy/service-role/AWSIoTThingsRegistration",
+          			"arn:aws:iam::aws:policy/service-role/AWSIoTRuleActions",
+          			"arn:aws:iam::aws:policy/service-role/AWSIoTLogging"
+        		],
+                "RoleName":"acme-iot-role"
+   	        }
+   	    },
+   	    "dynamoDBPolicy":{
+   	        "Type":"AWS::IAM::Policy",
+   	        "Properties":{
+   	            "PolicyName" : "acme-dyanamoDB-policy",
+   	            "PolicyDocument" : {
+         			"Version": "2012-10-17",
+  					"Statement": [
+    					{
+      						"Effect": "Allow",
+      						"Action": [
+        						"dynamodb:PutItem",
+        						"dynamodb:GetItem"
+      						],
+      						"Resource": { "Fn::GetAtt" : [ "patientRegisterTable", "Arn" ]  }
+    					}
+					]
+				},
+				"Roles": [ { "Ref": "lambdaRole" } ]
+   	        }
+   	    },
+   	    "kinesisStreamPolicy":{
+   	        "Type":"AWS::IAM::Policy",
+   	        "Properties":{
+   	            "PolicyName" : "acme-kinesis-policy",
+    			"PolicyDocument" : {
+         			"Version": "2012-10-17",
+  					"Statement": {
+    					"Effect": "Allow",
+    					"Action": "kinesis:PutRecord",
+    					"Resource": [
+           					{ "Fn::GetAtt" : [ "kinesisIoTStream", "Arn" ]  },
+                			{ "Fn::GetAtt" : [ "kinesisPatientStream", "Arn" ]  }
+                   		]
+					}
+       			},
+       			"Roles": [ { "Ref": "lambdaRole" }, { "Ref": "iotRole" } ]
+   	        }
+   	    },
+   	    "patientRegisterTable":{
+   	        "Type":"AWS::DynamoDB::Table",
+   	        "Properties":{
+   	            "AttributeDefinitions":[
+   	                {
+                        "AttributeName" : "PatientId",
+                        "AttributeType" : "S"
+                    }
+   	            ],
+   	            "KeySchema" : [
+                    {
+                        "AttributeName" : "PatientId",
+                        "KeyType" : "HASH"
+                    }
+                ],
+                "ProvisionedThroughput" : {
+                    "ReadCapacityUnits" : "5",
+                    "WriteCapacityUnits" : "5"
+                },
+                "TableName" : "patient-register"
+   	        }
+   	    },
+   	    "kinesisIoTStream":{
+   	        "Type":"AWS::Kinesis::Stream",
+   	        "Properties" : {
+                "Name" : "acme-iot-stream",
+                "ShardCount" : 1
+            }
+   	    },
+   	    "kinesisPatientStream":{
+   	        "Type":"AWS::Kinesis::Stream",
+   	        "Properties" : {
+                "Name" : "acme-patient-stream",
+                "ShardCount" : 1
+            }
+   	    }
+   	}
+}
